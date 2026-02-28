@@ -4,7 +4,7 @@ Status: Accepted
 
 ## Context
 
-The SoundWave Music Player requires audio playback functionality. The app must support music playback even when the app is running in the background.
+The SoundWave Music Player requires audio playback functionality. The app must support music playback even when running in the background.
 
 Advanced hardware features such as GPS or biometric authentication are not required for this project.
 
@@ -23,13 +23,13 @@ The app will not use:
 
 ## Rationale
 
-The focus of Phase 2 is implementing stable and reliable music playback. Adding unrelated hardware features would increase complexity and risk within the project timeline. Only essential audio-related hardware features will be included.
+The focus of this phase is stable and reliable playback functionality. Adding unrelated hardware features would increase complexity and risk within the project timeline. Only essential audio-related hardware features will be implemented.
 
 ## Consequences
 
 Positive:
-- Full music playback functionality
-- Realistic user experience
+- Complete music playback experience
+- Realistic app behavior
 - Reduced development risk
 
 Negative:

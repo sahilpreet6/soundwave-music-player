@@ -4,7 +4,7 @@ Status: Accepted
 
 ## Context
 
-The app needs to store playlists, song metadata, recently played songs, and user playback preferences such as shuffle and repeat.
+The app needs to store playlists, song metadata, recently played songs, and playback preferences such as shuffle and repeat.
 
 The team considered whether to use a remote backend or local storage.
 
@@ -16,19 +16,19 @@ The app will use local storage (unencrypted) for:
 - Recently played songs
 - User playback preferences
 
-No remote backend will be used in Phase 2.
+No remote backend will be used in this phase.
 
 ## Rationale
 
-The team has limited experience with backend development. Using local storage reduces complexity and allows faster development and testing. The app does not require handling sensitive user data in this phase.
+The team has limited experience with backend systems. Using local storage reduces development complexity and allows faster testing. The app does not require handling sensitive user data in this phase.
 
 ## Consequences
 
 Positive:
 - Simpler implementation
 - Works offline
-- Faster debugging
+- Easier testing and debugging
 
 Negative:
 - No cross-device synchronization
-- Limited scalability in early stages
+- Limited scalability for future expansion
